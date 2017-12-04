@@ -8,7 +8,7 @@ import Goods from 'components/goods/goods'
 import Ratings from './components/ratings/ratings'
 import Seller from './components/seller/seller'
 
-import Test from 'components/test/demo1'
+
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
@@ -17,7 +17,6 @@ const routes=[
 	{path:'/goods',component:Goods},
 	{path:'/ratings',component:Ratings},
 	{path:'/seller',component:Seller},
-	{path:'/test/demo1',component:Test},
 ]
 
 const router=new VueRouter({
